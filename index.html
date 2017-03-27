@@ -1,7 +1,24 @@
+<<<<<<< HEAD
 ---
 layout: page
 description: "A Clean Blog Theme by Start Bootstrap"
 ---
+=======
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Just don't be a saltedfish</title>
+    <!-- 引入 ECharts 文件 -->
+    <script src="echarts.min.js"></script>
+</head>
+<body>
+<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+>>>>>>> origin/master
 
 {% for post in paginator.posts %}
 <div class="post-preview">
