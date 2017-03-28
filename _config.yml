@@ -2,21 +2,21 @@
 title: justdontbeasaltedfish
 SEOTitle: justdontbeasaltedfish Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+# email: huxpro@gmail.com
 description: "justdontbeasaltedfish's Blog"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 肖玉, Lynn, 肖玉的男朋友"
+keyword: "justdontbeasaltedfish, justdontbeasaltedfish Blog, justdontbeasaltedfish's Blog"
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+RSS: true
+# weibo_username:     huxpro
+# zhihu_username:     huxpro
 github_username:    justdontbeasaltedfish
-#twitter_username:  huxpro
-facebook_username:  huxpro
+# twitter_username:  huxpro
+# facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
 
