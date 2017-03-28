@@ -14,7 +14,7 @@ baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog host
 RSS: false
 weibo_username:     huxpro
 zhihu_username:     huxpro
-github_username:    huxpro
+github_username:    justdontbeasaltedfish
 #twitter_username:  huxpro
 facebook_username:  huxpro
 
