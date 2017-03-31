@@ -7,3 +7,4 @@ author:     "justdontbeasaltedfish"
 header-img: "https://img5.doubanio.com/view/photo/photo/public/p551789496.jpg"
 tags:
     - Diary
+---
