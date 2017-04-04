@@ -12,7 +12,8 @@ tags:
 > April 4th,2017   Tuesday   Mostly Cloudy
 
 
-脚本元素  
+**脚本元素**
+
 有三个基本的脚本元素，作用是使JAVA代码可以直接插入servlet.
 
 *    一种是声明标签，在JAVA SERVLET的类体中放入一个变量的定义。静态的数据成员也可以如此定义。  
@@ -21,3 +22,14 @@ tags:
         `<% int localStackBasedVariable = 1; out.println(localStackBasedVariable); %>`
 *    一种是表达式标签，在JAVA SERVLET的类中放入待赋值的表达式，表达式注意不能以分号结尾。  
         `<%= "expanded inline data " + 1 %>`
+
+***
+
+**项目导出及部署**
+
+ IntelliJ IDEA将项目导出为war(Web Archive)包
+
+1. Project Structure *(项目结构)* --> Artifacts *(构件)* --> Add *(添加)* --> Web Application: Archive *(网络应用：存档文件)* --> For 'Project Name' *(给‘项目名’)*
+2. 设置好Name *(名称)* 和Output directory *(输出路径)* 。Include in project build *(包括在项目构建)* 选项可选可不选。如果选择了，那么每次在运行项目时都会生成war包。如果不勾选则可以在后续的步骤中手动生成war包。
+3. 点击加号选择Directory Content *(目录内容)* ，选择你当前项目的web目录，之后保存就可以啦。
+4. 如果前面勾选了Include in project build *(包括在项目构建)* 选项，可以在运行项目时生成war包。如果没有勾选，可以通过Build *(构建)* -->Build Artifacts *(构建构件)* 来生成war包。
