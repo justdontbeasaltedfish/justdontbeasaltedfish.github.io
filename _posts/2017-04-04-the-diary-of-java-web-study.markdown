@@ -49,3 +49,26 @@ tags:
 `startup.sh`
 
 Tomcat 服务器会自动将 war(Web Archive) 包解压到 Tomcat/webapps 目录下。
+
+***
+
+### **JSP 注释**
+
+**HTML 注释**  
+
+* HTML 注释可以用于注释 HTML 代码，并和其他 HTML 代码一起被返回到浏览器上，对用户可见。  
+`<!-- HTML 注释内容 -->`
+* 在 JSP 文件中的 HTML 注释可以使用合法的 JSP 表达式。  
+`<!-- Today is <%= new java.util.Date().toString() %> -->`
+
+**JSP 注释**
+
+* JSP 注释只会在 JSP 代码编辑的时候可见。  
+`<%-- JSP 注释内容 --%>`
+
+**JSP 程序段中的注释**
+
+* 单行注释  
+`<% // 单行注释内容 %>`
+* 多行注释  
+`<% /* 多行注释内容 */ %>`
