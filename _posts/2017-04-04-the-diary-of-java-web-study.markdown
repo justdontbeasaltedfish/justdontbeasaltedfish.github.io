@@ -8,11 +8,11 @@ header-img: "./img/p551789496.jpg"
 tags:
     - Diary
 ---
-> ### \# 1.
+> ## \# 1.
 > April 4th,2017   Tuesday   Mostly Cloudy
 
 
-**脚本元素**
+###**脚本元素**
 
 有三个基本的脚本元素，作用是使JAVA代码可以直接插入servlet.
 
@@ -25,7 +25,7 @@ tags:
 
 ***
 
-**项目导出及部署**
+###**项目导出及部署**
 
  IntelliJ IDEA将项目导出为war(Web Archive)包
 
