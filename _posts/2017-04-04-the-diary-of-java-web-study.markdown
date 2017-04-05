@@ -72,3 +72,21 @@ Tomcat 服务器会自动将 war(Web Archive) 包解压到 Tomcat/webapps 目录
 `<% // 单行注释内容 %>`
 * 多行注释  
 `<% /* 多行注释内容 */ %>`
+
+
+
+<!-- > ## \# 2.
+> April 5th,2017   Wednesday   Partly Cloudy
+
+
+### **JSP 编译指令和指令动作**
+
+**JSP 编译指令 page**
+
+**JSP 编译指令 include**
+
+**JSP 动作指令 forward**
+
+**JSP 动作指令 include**
+
+**JSP 动作指令 useBean** -->
